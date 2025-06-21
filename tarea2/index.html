@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Incecom</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="icon" href="img/favicon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <!-- Header / Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">Incecom</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link" href="#nosotros">Nosotros</a></li>
+            <li class="nav-item"><a class="nav-link" href="#servicios">Servicios</a></li>
+            <li class="nav-item"><a class="nav-link" href="#clientes">Clientes</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    
+    <!-- Hero -->
+    <section class="hero">
+      <div class="container">
+        <h1 class="display-4">Somos Incecom</h1>
+        <p class="lead">Soluciones tecnológicas e integraciones para un mundo conectado</p>
+        <a href="#servicios" class="btn btn-primary mt-4">Ver Servicios</a>
+      </div>
+    </section>
+
+    <!-- Nosotros -->
+    <section id="nosotros" class="section bg-light">
+      <div class="container">
+        <h2 class="section-title">Nosotros</h2>
+        <p class="texto-contenido text-center">Incecom es una empresa costarricense con más de 20 años de experiencia en el desarrollo de soluciones tecnológicas en el sector público y privado. Nos especializamos en consultoría, integración de sistemas, ciberseguridad y desarrollo de software a medida.</p>
+        <img src="img/incecom1.jpg" class="img-pequena" alt="Incecom">
+      </div>
+    </section>
+
+    <!-- Servicios -->
+    <section id="servicios" class="section">
+      <div class="container">
+        <h2 class="section-title">Nuestros Servicios</h2>
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div class="servicio-card">
+              <img src="img/incecom2.jpg" class="servicios-img" alt="Integración de Sistemas">
+              <h5>Integración de Sistemas</h5>
+              <p>Conectamos tus procesos para una operación eficiente y segura.</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="servicio-card">
+              <img src="img/incecom3.jpg" class="servicios-img" alt="Ciberseguridad">
+              <h5>Ciberseguridad</h5>
+              <p>Protegemos tus sistemas y datos frente a amenazas digitales en constante evolución.</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="servicio-card">
+              <img src="img/incecom4.jpg" class="servicios-img" alt="Desarrollo de Software">
+              <h5>Desarrollo de Software</h5>
+              <p>Soluciones personalizadas que se adaptan a tu negocio.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Clientes -->
+    <section id="clientes" class="section bg-light">
+      <div class="container">
+        <h2 class="section-title">Nuestros Clientes</h2>
+        <p class="texto-contenido text-center">Trabajamos con organismos gubernamentales, empresas de telecomunicaciones, salud, educación y más. Nuestra reputación se basa en resultados sólidos y relaciones duraderas.</p><br>
+
+        <div id="clientesCarousel" class="carousel slide mx-auto" data-bs-ride="carousel" style="width: 50%;">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="img/incecom5.jpg" class="d-block w-100 rounded" alt="Cliente 1">
+            </div>
+            <div class="carousel-item">
+              <img src="img/incecom6.jpg" class="d-block w-100 rounded" alt="Cliente 2">
+            </div>
+            <div class="carousel-item">
+              <img src="img/incecom7.jpg" class="d-block w-100 rounded" alt="Cliente 3">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#clientesCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#clientesCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Siguiente</span>
+          </button>
+        </div>        
+      </div>
+    </section>
+
+
+    <!-- Contacto -->
+    <section id="contacto" class="section">
+      <div class="container">
+        <h2 class="section-title">Contacto</h2>
+        <p class="text-center">¿Quieres saber más? Contáctanos para recibir atención personalizada.</p><br>
+        <div class="text-center">
+          <a href="mailto:contacto@incecom.net" class="btn btn-outline-primary">Escríbenos</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <p>&copy; 2025 Incecom. Todos los derechos reservados.</p>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

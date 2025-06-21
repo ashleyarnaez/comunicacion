@@ -1,0 +1,125 @@
+:root {
+    --color-primario: #007AF5;
+    --color-secundario: #F59900;
+    --color-terciario: #356BA0;
+}
+  
+body {
+    font-family: "Rubik", sans-serif;
+    scroll-behavior: smooth;
+}
+  
+.navbar {
+    background-color: var(--color-terciario);
+}
+  
+.navbar a {
+    color: white !important;
+}
+  
+.navbar a:hover,
+.navbar .nav-link.active {
+    color: var(--color-secundario) !important;
+}
+  
+.hero {
+    background: url('../img/banner.jpg') center/cover no-repeat;
+    color: white;
+    padding: 120px 20px 100px;
+    text-align: center;
+}
+  
+.section {
+    padding: 60px 20px;
+    object-fit: cover;
+}
+  
+.section-title {
+    margin-bottom: 40px;
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+    color: var(--color-terciario);
+}
+  
+.btn-primary {
+    background-color: var(--color-primario);
+    border-color: var(--color-primario);
+}
+  
+.btn-primary:hover {
+    background-color: var(--color-secundario);
+    border-color: var(--color-secundario);
+    color: white;
+}
+  
+.btn-outline-primary {
+    color: var(--color-primario);
+    border-color: var(--color-primario);
+}
+  
+.btn-outline-primary:hover {
+    background-color: var(--color-primario);
+    color: white;
+}
+  
+footer {
+    background: var(--color-terciario);
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.servicios-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 6px;
+    margin-bottom: 1rem;
+}
+
+.img-pequena {
+    display: block;
+    max-width: 600px;
+    width: 100%;
+    margin: 30px auto 0 auto;
+    border-radius: 6px;
+}
+  
+.texto-contenido {
+    max-width: 700px;
+    margin: 0 auto;
+    font-size: 1.1rem;
+    line-height: 1.7;
+}
+
+.servicio-card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+  
+.servicio-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+  
+.servicios-img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 6px;
+    margin-bottom: 1rem;
+}
+  
+.carousel-item img {
+    height: 400px;
+    object-fit: cover;
+}
+  
