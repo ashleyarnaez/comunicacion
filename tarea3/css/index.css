@@ -1,0 +1,53 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    background-color: #000000;
+    color: #ffffff;
+}
+  
+.header-section {
+    height: 100vh;
+    background: linear-gradient(to bottom right, #000, #C2252B);
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+    padding-top: 1vh;
+}
+  
+ .footer-section {
+    background: linear-gradient(to top left, #000, #C2252B);
+    clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 100%);
+}
+  
+.accordion-button {
+    font-weight: bold;
+}
+  
+.card {
+    border: none;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+  
+.image-card img {
+    height: 200px;
+    object-fit: cover;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
+
+
+
+.accordion-button:not(.collapsed) {
+    background-color: #F4BB11;
+    color: white;
+}
+  
+.accordion-button {
+    background-color: #fffaf5; 
+    color: #333;
+}
+  
+.accordion-button:focus {
+    box-shadow: none; 
+}
+  
+  
